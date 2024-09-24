@@ -1,23 +1,31 @@
-"""
-This is the Template Repl for Python with Turtle.
+# import package 
+import turtle 
 
-Python with Turtle lets you make graphics easily in Python.
 
-Check out the official docs here: https://docs.python.org/3/library/turtle.html
-"""
+# for default shape 
+turtle.forward(100) 
 
-import turtle
+# for circle shape 
+turtle.shape("circle") 
+turtle.right(60) 
+turtle.forward(100) 
 
-# Fullscreen the canvas
-screen = turtle.Screen()
-screen.setup(1.0, 1.0)
+# for triangle shape 
+turtle.shape("triangle") 
+turtle.right(60) 
+turtle.forward(100) 
 
-# Begin!
-t = turtle.Turtle()
+# for square shape 
+turtle.shape("square") 
+turtle.right(60) 
+turtle.forward(100) 
 
-for c in ['red', 'green', 'blue', 'yellow']:
-  t.color(c)
-  t.forward(75)
-  t.left(90)
+# for arrow shape 
+turtle.shape("arrow") 
+turtle.right(60) 
+turtle.forward(100) 
 
-screen.mainloop()
+# for turtle shape 
+turtle.shape("turtle") 
+turtle.right(60) 
+turtle.forward(100)
