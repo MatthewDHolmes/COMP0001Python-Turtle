@@ -1,7 +1,6 @@
 # import package 
 import turtle 
 
-
 # for default shape 
 turtle.forward(100) 
 
